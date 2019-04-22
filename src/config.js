@@ -1,6 +1,12 @@
+
+const TWITTER_CONSUMER_KEY  = process.env.TWITTER_CONSUMER_KEY;
+const TWITTER_CONSUMER_SECRET = process.env.TWITTER_CONSUMER_SECRET
+const TWITTER_ACCESS_TOKEN = process.env.TWITTER_ACCESS_TOKEN
+const TWITTER_ACCESS_TOKEN_SECRET = process.env.TWITTER_ACCESS_TOKEN_SECRET
+
 module.exports = {
-  consumer_key: '646WNU6VIVvRIZIKibxK0E5Rk',
-  consumer_secret: 'IVc13QdkXhs8IuDpTxHBqDOWNto1GIzNoa1you6VUK3DeUmLkm',
-  access_token: '3588461835-bmfD8e9xInNz3sttDFMcgalOC0IJuiaPTRcgHNr',
-  access_token_secret: 'UIHnoTwCk78iVgMADaHlZJeZZBPIuLWNgHvYCydq1rxVL'
+  consumer_key: TWITTER_CONSUMER_KEY,
+  consumer_secret: TWITTER_CONSUMER_SECRET,
+  access_token: TWITTER_ACCESS_TOKEN,
+  access_token_secret: TWITTER_ACCESS_TOKEN_SECRET
 };

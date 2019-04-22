@@ -53,11 +53,10 @@ const retweetParams = {
   lang: 'en'
  };
 
-
-const delay = 3600 * 1000;
+// Hour = 3600 seconds and each second has 1000 ms => 3600 * 1000 ms
+const delay = 60 * 60 * 1000; 
 
 // Use SetInterval function for running functions intermitantly  
-// Hour = 3600 seconds and each second has 1000 ms => 3600 * 1000 ms
 setInterval(() => {
   like(bot, likeParams);
   retweet(bot, retweetParams);
