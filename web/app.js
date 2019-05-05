@@ -33,6 +33,7 @@ function onAuthenticated(err, res) {
   console.log('Authentication successful. Running bot...\r\n');
 }
 
+app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 
